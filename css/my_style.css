@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/9622.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Lato-Regular';
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+#left {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+
+  overflow-y: scroll;
+}
+
+#right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+}
+
+ul, #mozToc {
+  list-style-type: none;
+  padding-inline-start: 15px;
+}
+
+#mozToc {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: #004648;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+figcaption {
+  color: #20295b;
+  font-style: italic;
+  padding: 2px;
+  text-align: left;
+}
+
+.auto-style3 {
+		border-style: solid;
+		border-width: 1px;
+  }
+
+ul {
+}
+
+ul a {
+  list-style-type: none;
+  color: #004648;
+  font-size: 1rem;
+}
+
+
+a:hover {
+  font-weight: bold;
+  color: #09171E;
+  /*background-color: #2d9593;*/
+  text-decoration: none ;
+}
